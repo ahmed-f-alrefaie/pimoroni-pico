@@ -14,3 +14,6 @@ include(cppmem/micropython)
 
 # Disable build-busting C++ exceptions
 include(micropython-disable-exceptions)
+
+include(micropython-common-ulab)
+enable_ulab()
